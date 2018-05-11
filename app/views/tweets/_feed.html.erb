@@ -1,4 +1,5 @@
 <div class="column is-half">
+<% if user_signed_in? %>
     <article class="media box"> 
     <figure class="media-left">
         <p class="image is-64x64">
@@ -10,6 +11,7 @@
         <%= render 'tweets/form' %>
       </div>
     </article>
+<%end%>
 
 
 <% @tweets.each do |tweet| %>
@@ -27,6 +29,11 @@
                     <%# column in database is called tweet and we're querying for tweet %>
                     <p><%= tweet.tweet %></p>
                 </div>
+
+
+                <%# you can edit another persons tweets  %>
+                <% if user_signed_in? %>
+
                 <%# actions on tweet %>
                 <nav class="level">
                     <div class="level-left is-mobile">
@@ -54,6 +61,7 @@
 
                     </div>
                 </nav>
+                    <% end %>
             </div>
         </article>
     </div>
