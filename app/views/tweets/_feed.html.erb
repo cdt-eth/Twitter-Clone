@@ -22,8 +22,8 @@
             </div>
             <div class="media-content">
                 <div class="content">
-                    <strong>Christian Turner</strong>
-                    <small>@imcdt</small>
+                    <strong><%= tweet.user.name %></strong>
+                    <small>@<%= tweet.user.username %></small>
                     <%# column in database is called tweet and we're querying for tweet %>
                     <p><%= tweet.tweet %></p>
                 </div>
