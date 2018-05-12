@@ -22,7 +22,7 @@
 
 # Overview
 
-A Twitter Clone built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. You can see the final project [here](https://github-battle-react-4b568.firebaseapp.com/).
+A Twitter Clone built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. You can see the final project [here](https://fierce-caverns-96407.herokuapp.com/).
 
 
 # Tools
