@@ -56,6 +56,9 @@ group :development do
   gem "better_errors", "~> 2.4"
   gem "guard", "~> 2.14", ">= 2.14.2"
   gem "guard-livereload", "~> 2.5", ">= 2.5.2", require: false
+end
+
+group :development do
   gem "sqlite3"
 end
 
