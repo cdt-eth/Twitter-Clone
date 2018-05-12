@@ -59,9 +59,6 @@ group :development do
   gem "guard-livereload", "~> 2.5", ">= 2.5.2", require: false
 end
 
-
-
-
 group :production do
   gem "pg"
   gem "rails_12factor"
