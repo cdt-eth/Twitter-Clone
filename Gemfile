@@ -59,9 +59,7 @@ group :development do
   gem "sqlite3"
 end
 
-
-
-group :development do
+group :production do
   gem 'pg', '~> 0.21'
   gem "rails_12factor"
 end
