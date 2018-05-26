@@ -22,12 +22,15 @@
 
 # Overview
 
-A Twitter Clone built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. You can see the final project [here](https://fierce-caverns-96407.herokuapp.com/).
+A Twitter Clone built with Rails. Bulma was the framework I used for styling, and Devise was implemented for user authentication. I deployed the final project to Heroku. You can see the final project [here](https://twitter-clone-on-rails.herokuapp.com/).
 
 
 # Tools
 
 - Rails
+- SQLite 3
+- Postgres
 - Bulma
 - Devise
 - Simple Form
+- Heroku
